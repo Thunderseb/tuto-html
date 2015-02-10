@@ -2,10 +2,91 @@
 <html>
 <head>
 <meta charset="utf-8" />
-<title>Cours HTML 5 et CSS 3</title>
+<title>Créez votre site Web avec HTML 5 et CSS 3</title>
+<style>
+/* Bootstrap 3 */
+@import url("https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css");
+
+/* Styles propres */
+body > footer {
+    border-top: 1px solid #E5E5E5;
+    color: #777;
+    margin-top: 100px;
+    padding-bottom: 40px;
+    padding-top: 40px;
+    text-align: center;
+}
+
+body > footer > ul {
+	color: #999;
+	margin-top: 20px;
+	padding-left: 0;	
+}
+
+body > footer > ul > li {
+	display: inline;
+}
+</style>
 </head>
 
 <body>
-	<p>En construction...</p>
+
+<header class="navbar navbar-default navbar-static-top navbar-inverse" role="navigation">
+	<div class="container">
+		<div class="navbar-header">
+	 		<span class="navbar-brand">Créez votre site Web avec HTML 5 et CSS 3</span>
+		</div>
+	</div>
+</header>
+
+<main class="container">
+
+	<div class="page-header">
+		<h1>Créez votre site Web avec HTML 5 et CSS 3</h1>
+	</div>
+	
+	<p>Cet ensemble de pages Web, hébergé via <a href="https://github.com/Thunderseb/tuto-html/tree/gh-pages">GitHub</a> 
+		me permet de fournir des exemples afin d'égayer mon cours 
+		<em>Créez votre site Web avec HTML 5 et CSS 3</em> publié sur <a href="http://zestedesavoir.com">Zeste de Savoir</a>.
+	</p>
+	
+	<h2>Exemples</h2>
+	
+	<nav>
+		<ol>
+			<li>
+				<div>Partie I : Mise en route</div>
+				<ol>
+					<li>Chapitre 1 : Comment éa marche ?</li>
+					<li>Chapitre 2 : Les bons outils</li>
+				</ol>
+			</li>
+			<li>
+				<div>Partie II : Le langage HTML</div>
+				<ol>
+					<li>Chapitre 1 : La base du langage</li>
+					<li>Chapitre 2 : Rédiger du texte</li>
+					<li>Chapitre 3 : Les listes</li>
+					<li>Chapitre 4 : Les liens hypertextes</li>
+				</ol>
+			</li>
+			<li>
+				<div>Partie III : Le langage CSS</div>
+			</li>
+		</ol>
+	</nav>
+	
+</main>
+
+<footer class="container" role="contentinfo">
+	<p>Support du cours <em>Créez votre site Web avec HTML 5 et CSS 3</em></p>
+	<p>&copy; Sébastien de la Marck, aka Thunderseb</p>
+	<ul class="list-unstyled">
+		<li><a href="#">Cours Zeste de Savoir</a></li>
+		<li> &mdash; </li>
+		<li>Design avec <a href="http://getbootstrap.com/">Bootstrap 3</a></li>
+	</ul>
+</footer>
+	
 </body>
 </html>

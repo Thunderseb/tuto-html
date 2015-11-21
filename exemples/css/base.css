@@ -14,3 +14,23 @@ h1 small { color: #fff;}
 
 #sh-logo img { border: 1px solid #fff; padding: 20px; border-radius: 15px;  background: rgba(255, 255, 255, 0.6) }
 #sh-logo { padding-bottom: 2em; }
+
+/* Styles propres */
+body > footer {
+    border-top: 1px solid #E5E5E5;
+    color: #777;
+    margin-top: 100px;
+    padding-bottom: 40px;
+    padding-top: 40px;
+    text-align: center;
+}
+
+body > footer > ul {
+	color: #999;
+	margin-top: 20px;
+	padding-left: 0;	
+}
+
+body > footer > ul > li {
+	display: inline;
+}

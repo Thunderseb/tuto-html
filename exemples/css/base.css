@@ -1,0 +1,16 @@
+
+.navbar {
+    margin-bottom: 0;
+}
+#subheader {
+    background: #F16529 url(../images/landscape_wallpaper_perfect_2048_1080p_hd.jpg) no-repeat bottom center fixed; 
+    color: #fff;
+    padding-top: 1.7em; 
+    padding-bottom: 1.7em; 
+    margin-bottom: 1.5em;
+}
+h1 { margin: 0; text-shadow: 2px 2px 7px rgba(68, 68, 68, 1); }
+h1 small { color: #fff;}
+
+#sh-logo img { border: 1px solid #fff; padding: 20px; border-radius: 15px;  background: rgba(255, 255, 255, 0.6) }
+#sh-logo { padding-bottom: 2em; }
